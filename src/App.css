@@ -24,9 +24,28 @@
   color: white;
 }
 
+#snowfall canvas {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
 .App-link {
   color: #61dafb;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+}
+
 
 @keyframes App-logo-spin {
   from {

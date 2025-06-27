@@ -1,0 +1,86 @@
+.education-section {
+  background: linear-gradient(145deg, rgb(20, 15, 35), rgb(27, 20, 41));
+  padding: 4rem 2rem;
+  color: white;
+  border-top: 1px solid #28224c;
+}
+
+.education-heading {
+  text-align: justify;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .education-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.education-animation {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 400px;
+}
+
+.education-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.education-card {
+  background-color: #1a1435;
+  border: 1px solid #2f2852;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.education-card:hover {
+  background: radial-gradient(circle, #3f2c6e, #1a1435);
+  box-shadow: 0 0 15px #7e3ff2;
+  transform: scale(1.03);
+}
+
+.edu-duration {
+  color: #16f2b3;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.edu-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.edu-icon {
+  color: #a07fff;
+}
+
+.edu-title {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.edu-inst {
+  font-size: 0.9rem;
+  color: #ccc;
+}
